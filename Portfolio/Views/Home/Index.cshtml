@@ -1,0 +1,108 @@
+﻿<html>
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Slabo 27px', serif;
+        }
+
+        .splash-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #ffcc80;
+            text-align: center;
+        }
+
+        .splash-container .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: darkslategrey;
+        }
+
+        .splash-container .title img{
+            width: 200px;
+            height: 200px;
+            border: solid 3px darkslategrey;
+            border-radius: 50%;
+
+            -webkit-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+        }
+        
+        .splash-container .title h1 {
+            margin-bottom: 0px;
+        }
+
+        .splash-container .title h3 {
+            margin: 0px;
+            text-transform: uppercase;
+            color: darkred;
+        }
+
+        .splash-container .links {
+            position: absolute;
+            top: 0;
+                right: 0;
+                background-color: #baddf9;
+                padding: 15px;
+                border-radius: 0 0 0 7px;
+            color: black;
+          }
+
+        .splash-container .links ul {
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+        .splash-container .links ul li {
+            display: inline;
+            font-size: 22px;
+            padding: 0px 5px;
+        }
+        .splash-container .links ul li a {
+            text-decoration: none;
+            color: black;
+        }
+</style>
+</head>
+<body>
+<div class="splash-container">
+    <div class="title">
+        <img src='~/Images/myAvatar.png' />
+        <h1>Keaghan Kennedy</h1>
+        <h3>"Teehee...</h3>
+    </div>
+    <div class="links">
+        <ul>
+            <li>
+                <a href="http://facebook.com">
+                    <i class="fab fa-facebook-square"></i>
+                </a>           
+            </li>
+            <li>
+                <a href="http://instagram.com">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+
+            </li>
+            <li>
+                <i class="fab fa-youtube-square"></i>
+            </li>
+            <li>
+                <i class="fab fa-github"></i>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
